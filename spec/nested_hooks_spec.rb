@@ -7,7 +7,7 @@ RSpec.describe 'nested hooks' do
     puts 'OUTER Before example'
   end
 
-  it 'is juste a random example' do
+  it 'is just a random example' do
     expect(1 + 1).to eq(2)
   end
 
@@ -21,11 +21,11 @@ RSpec.describe 'nested hooks' do
       puts 'INNER Before example'
     end
 
-    it 'is juste an other random example' do
+    it 'is just an other random example' do
     expect(1 + 1).to eq(2)
     end
 
-    it 'is juste an other random example' do
+    it 'is just an other random example' do
     expect(1 + 1).to eq(2)
     end
   end
